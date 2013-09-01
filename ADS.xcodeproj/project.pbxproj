@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8388B6117D35AD700FF91AD /* bisearch.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6017D35AD700FF91AD /* bisearch.c */; };
 		D85186D117D265C2003B08A1 /* traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D85186D017D265C2003B08A1 /* traverse.c */; };
 		D85640EF17D24A6C0054C848 /* bistree.c in Sources */ = {isa = PBXBuildFile; fileRef = D85640EE17D24A6C0054C848 /* bistree.c */; };
 		D8873F4317D2394A00E89436 /* bfs.c in Sources */ = {isa = PBXBuildFile; fileRef = D8873F3E17D2394A00E89436 /* bfs.c */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D8388B5F17D35ACE00FF91AD /* bisearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bisearch.h; sourceTree = "<group>"; };
+		D8388B6017D35AD700FF91AD /* bisearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bisearch.c; sourceTree = "<group>"; };
 		D85186CF17D265BA003B08A1 /* traverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = traverse.h; sourceTree = "<group>"; };
 		D85186D017D265C2003B08A1 /* traverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = traverse.c; sourceTree = "<group>"; };
 		D85640ED17D24A640054C848 /* bistree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bistree.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 		D8880D9617CF43570062D653 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				D8388B5F17D35ACE00FF91AD /* bisearch.h */,
+				D8388B6017D35AD700FF91AD /* bisearch.c */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				D8873F4417D2394A00E89436 /* dfs.c in Sources */,
 				D8880DA717CF52640062D653 /* set.c in Sources */,
 				D85640EF17D24A6C0054C848 /* bistree.c in Sources */,
+				D8388B6117D35AD700FF91AD /* bisearch.c in Sources */,
 				D8880D8A17CF40650062D653 /* main.c in Sources */,
 				D8873F4317D2394A00E89436 /* bfs.c in Sources */,
 				D895C84517D1F93D00B488B5 /* stack.c in Sources */,
