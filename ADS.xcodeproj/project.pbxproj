@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		D8388B6117D35AD700FF91AD /* bisearch.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6017D35AD700FF91AD /* bisearch.c */; };
 		D8388B6717D36D5A00FF91AD /* spell.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6617D36D5A00FF91AD /* spell.c */; };
+		D851320F17D38F0500E946A3 /* directls.c in Sources */ = {isa = PBXBuildFile; fileRef = D851320E17D38F0500E946A3 /* directls.c */; };
 		D85186D117D265C2003B08A1 /* traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D85186D017D265C2003B08A1 /* traverse.c */; };
 		D85640EF17D24A6C0054C848 /* bistree.c in Sources */ = {isa = PBXBuildFile; fileRef = D85640EE17D24A6C0054C848 /* bistree.c */; };
+		D86D7E6817D37639004F47A4 /* issort.c in Sources */ = {isa = PBXBuildFile; fileRef = D86D7E6717D37639004F47A4 /* issort.c */; };
 		D8873F4317D2394A00E89436 /* bfs.c in Sources */ = {isa = PBXBuildFile; fileRef = D8873F3E17D2394A00E89436 /* bfs.c */; };
 		D8873F4417D2394A00E89436 /* dfs.c in Sources */ = {isa = PBXBuildFile; fileRef = D8873F4117D2394A00E89436 /* dfs.c */; };
 		D8873F4717D23EBE00E89436 /* bitree.c in Sources */ = {isa = PBXBuildFile; fileRef = D8873F4617D23EBE00E89436 /* bitree.c */; };
@@ -20,6 +22,7 @@
 		D8880DAA17CF6E8F0062D653 /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = D8880DA917CF6E8F0062D653 /* graph.c */; };
 		D895C84517D1F93D00B488B5 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D895C84417D1F93D00B488B5 /* stack.c */; };
 		D895C84817D1F94F00B488B5 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = D895C84717D1F94F00B488B5 /* queue.c */; };
+		D8C261A517D3715E00FA8200 /* qksort.c in Sources */ = {isa = PBXBuildFile; fileRef = D8C261A417D3715E00FA8200 /* qksort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,10 +42,14 @@
 		D8388B6017D35AD700FF91AD /* bisearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bisearch.c; sourceTree = "<group>"; };
 		D8388B6517D36D4F00FF91AD /* spell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell.h; sourceTree = "<group>"; };
 		D8388B6617D36D5A00FF91AD /* spell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spell.c; sourceTree = "<group>"; };
+		D851320D17D38EFE00E946A3 /* directls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directls.h; sourceTree = "<group>"; };
+		D851320E17D38F0500E946A3 /* directls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = directls.c; sourceTree = "<group>"; };
 		D85186CF17D265BA003B08A1 /* traverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = traverse.h; sourceTree = "<group>"; };
 		D85186D017D265C2003B08A1 /* traverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = traverse.c; sourceTree = "<group>"; };
 		D85640ED17D24A640054C848 /* bistree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bistree.h; sourceTree = "<group>"; };
 		D85640EE17D24A6C0054C848 /* bistree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bistree.c; sourceTree = "<group>"; };
+		D86D7E6617D37630004F47A4 /* issort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = issort.h; sourceTree = "<group>"; };
+		D86D7E6717D37639004F47A4 /* issort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = issort.c; sourceTree = "<group>"; };
 		D8873F3E17D2394A00E89436 /* bfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bfs.c; sourceTree = "<group>"; };
 		D8873F3F17D2394A00E89436 /* bfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bfs.h; sourceTree = "<group>"; };
 		D8873F4117D2394A00E89436 /* dfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dfs.c; sourceTree = "<group>"; };
@@ -61,6 +68,8 @@
 		D895C84417D1F93D00B488B5 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		D895C84617D1F94800B488B5 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		D895C84717D1F94F00B488B5 /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		D8C261A317D3715600FA8200 /* qksort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qksort.h; sourceTree = "<group>"; };
+		D8C261A417D3715E00FA8200 /* qksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qksort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +100,23 @@
 			path = "Spell Checking";
 			sourceTree = "<group>";
 		};
+		D851320A17D38EDE00E946A3 /* Quicksort */ = {
+			isa = PBXGroup;
+			children = (
+				D851320B17D38EDE00E946A3 /* Directory Listings */,
+			);
+			path = Quicksort;
+			sourceTree = "<group>";
+		};
+		D851320B17D38EDE00E946A3 /* Directory Listings */ = {
+			isa = PBXGroup;
+			children = (
+				D851320E17D38F0500E946A3 /* directls.c */,
+				D851320D17D38EFE00E946A3 /* directls.h */,
+			);
+			path = "Directory Listings";
+			sourceTree = "<group>";
+		};
 		D85186CD17D26580003B08A1 /* Binary Trees */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +140,7 @@
 				D8388B6317D36D3300FF91AD /* Binary Search */,
 				D85186CD17D26580003B08A1 /* Binary Trees */,
 				D8873F3C17D2394A00E89436 /* Graphs */,
+				D851320A17D38EDE00E946A3 /* Quicksort */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -211,7 +238,7 @@
 				D8880D9717CF43570062D653 /* Counting Sort */,
 				D8880D9817CF43570062D653 /* Insertion Sort */,
 				D8880D9917CF43570062D653 /* Merge Sort */,
-				D8880D9A17CF43570062D653 /* Quicksort */,
+				D8C261A217D3714100FA8200 /* Quicksort */,
 				D8880D9B17CF43570062D653 /* Radix Sort */,
 			);
 			path = "Sorting and Searching";
@@ -236,6 +263,8 @@
 		D8880D9817CF43570062D653 /* Insertion Sort */ = {
 			isa = PBXGroup;
 			children = (
+				D86D7E6717D37639004F47A4 /* issort.c */,
+				D86D7E6617D37630004F47A4 /* issort.h */,
 			);
 			path = "Insertion Sort";
 			sourceTree = "<group>";
@@ -245,13 +274,6 @@
 			children = (
 			);
 			path = "Merge Sort";
-			sourceTree = "<group>";
-		};
-		D8880D9A17CF43570062D653 /* Quicksort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Quicksort;
 			sourceTree = "<group>";
 		};
 		D8880D9B17CF43570062D653 /* Radix Sort */ = {
@@ -322,6 +344,15 @@
 			path = "Graph Algorithms";
 			sourceTree = "<group>";
 		};
+		D8C261A217D3714100FA8200 /* Quicksort */ = {
+			isa = PBXGroup;
+			children = (
+				D8C261A417D3715E00FA8200 /* qksort.c */,
+				D8C261A317D3715600FA8200 /* qksort.h */,
+			);
+			path = Quicksort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,12 +409,15 @@
 				D8880DA717CF52640062D653 /* set.c in Sources */,
 				D85640EF17D24A6C0054C848 /* bistree.c in Sources */,
 				D8388B6117D35AD700FF91AD /* bisearch.c in Sources */,
+				D851320F17D38F0500E946A3 /* directls.c in Sources */,
 				D8880D8A17CF40650062D653 /* main.c in Sources */,
 				D8873F4317D2394A00E89436 /* bfs.c in Sources */,
 				D895C84517D1F93D00B488B5 /* stack.c in Sources */,
 				D895C84817D1F94F00B488B5 /* queue.c in Sources */,
+				D8C261A517D3715E00FA8200 /* qksort.c in Sources */,
 				D8388B6717D36D5A00FF91AD /* spell.c in Sources */,
 				D8880DAA17CF6E8F0062D653 /* graph.c in Sources */,
+				D86D7E6817D37639004F47A4 /* issort.c in Sources */,
 				D8880DA417CF457D0062D653 /* list.c in Sources */,
 				D8873F4717D23EBE00E89436 /* bitree.c in Sources */,
 			);
