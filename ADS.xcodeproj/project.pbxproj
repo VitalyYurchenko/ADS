@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82D431F17D87AAB00951E13 /* chtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = D82D431E17D87AAB00951E13 /* chtbl.c */; };
 		D8388B6117D35AD700FF91AD /* bisearch.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6017D35AD700FF91AD /* bisearch.c */; };
 		D8388B6717D36D5A00FF91AD /* spell.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6617D36D5A00FF91AD /* spell.c */; };
+		D83EB19717D8AD8E005782F4 /* ohtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = D83EB19617D8AD8E005782F4 /* ohtbl.c */; };
 		D851320F17D38F0500E946A3 /* directls.c in Sources */ = {isa = PBXBuildFile; fileRef = D851320E17D38F0500E946A3 /* directls.c */; };
 		D85186D117D265C2003B08A1 /* traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D85186D017D265C2003B08A1 /* traverse.c */; };
 		D85640EF17D24A6C0054C848 /* bistree.c in Sources */ = {isa = PBXBuildFile; fileRef = D85640EE17D24A6C0054C848 /* bistree.c */; };
@@ -38,10 +40,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D82D431D17D87AA400951E13 /* chtbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chtbl.h; sourceTree = "<group>"; };
+		D82D431E17D87AAB00951E13 /* chtbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chtbl.c; sourceTree = "<group>"; };
 		D8388B5F17D35ACE00FF91AD /* bisearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bisearch.h; sourceTree = "<group>"; };
 		D8388B6017D35AD700FF91AD /* bisearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bisearch.c; sourceTree = "<group>"; };
 		D8388B6517D36D4F00FF91AD /* spell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell.h; sourceTree = "<group>"; };
 		D8388B6617D36D5A00FF91AD /* spell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spell.c; sourceTree = "<group>"; };
+		D83EB19517D8AD84005782F4 /* ohtbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ohtbl.h; sourceTree = "<group>"; };
+		D83EB19617D8AD8E005782F4 /* ohtbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ohtbl.c; sourceTree = "<group>"; };
 		D851320D17D38EFE00E946A3 /* directls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directls.h; sourceTree = "<group>"; };
 		D851320E17D38F0500E946A3 /* directls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = directls.c; sourceTree = "<group>"; };
 		D85186CF17D265BA003B08A1 /* traverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = traverse.h; sourceTree = "<group>"; };
@@ -295,6 +301,10 @@
 		D8880D9D17CF43670062D653 /* Hash Tables */ = {
 			isa = PBXGroup;
 			children = (
+				D82D431E17D87AAB00951E13 /* chtbl.c */,
+				D82D431D17D87AA400951E13 /* chtbl.h */,
+				D83EB19617D8AD8E005782F4 /* ohtbl.c */,
+				D83EB19517D8AD84005782F4 /* ohtbl.h */,
 			);
 			path = "Hash Tables";
 			sourceTree = "<group>";
@@ -408,10 +418,12 @@
 				D8873F4417D2394A00E89436 /* dfs.c in Sources */,
 				D8880DA717CF52640062D653 /* set.c in Sources */,
 				D85640EF17D24A6C0054C848 /* bistree.c in Sources */,
+				D82D431F17D87AAB00951E13 /* chtbl.c in Sources */,
 				D8388B6117D35AD700FF91AD /* bisearch.c in Sources */,
 				D851320F17D38F0500E946A3 /* directls.c in Sources */,
 				D8880D8A17CF40650062D653 /* main.c in Sources */,
 				D8873F4317D2394A00E89436 /* bfs.c in Sources */,
+				D83EB19717D8AD8E005782F4 /* ohtbl.c in Sources */,
 				D895C84517D1F93D00B488B5 /* stack.c in Sources */,
 				D895C84817D1F94F00B488B5 /* queue.c in Sources */,
 				D8C261A517D3715E00FA8200 /* qksort.c in Sources */,
@@ -451,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -458,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
