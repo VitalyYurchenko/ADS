@@ -1,16 +1,18 @@
 //
-//  bisearch.h
+//  search.h
 //  ADS
 //
-//  Created by Vitaly Yurchenko on 9/1/13.
+//  Created by Vitaly Yurchenko on 09.09.13.
 //  Copyright (c) 2013 Vitaly Yurchenko. All rights reserved.
 //
 // ********************************************************************************************************************************************************** //
 
-#ifndef ADS_bisearch_h
-#define ADS_bisearch_h
+#ifndef ADS_search_h
+#define ADS_search_h
 
 // ********************************************************************************************************************************************************** //
+
+/* Public Interface. */
 
 /*
  Description:   Uses binary search to locate target in sorted, a sorted array of elements. The number of elements in sorted is specified by size.
