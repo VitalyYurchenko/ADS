@@ -14,6 +14,9 @@
 		D822C6D917DF1E44000AFFA8 /* parcels.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6CB17DF1E44000AFFA8 /* parcels.c */; };
 		D822C6DA17DF1E44000AFFA8 /* directls.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6CF17DF1E44000AFFA8 /* directls.c */; };
 		D822C6DB17DF1E44000AFFA8 /* route.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6D317DF1E44000AFFA8 /* route.c */; };
+		D822C6DD17DF2172000AFFA8 /* mgsort.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6DC17DF2172000AFFA8 /* mgsort.c */; };
+		D822C6DF17DF2294000AFFA8 /* ctsort.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6DE17DF2294000AFFA8 /* ctsort.c */; };
+		D822C6E117DF22B8000AFFA8 /* rxsort.c in Sources */ = {isa = PBXBuildFile; fileRef = D822C6E017DF22B8000AFFA8 /* rxsort.c */; };
 		D82D431F17D87AAB00951E13 /* chtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = D82D431E17D87AAB00951E13 /* chtbl.c */; };
 		D8388B6117D35AD700FF91AD /* bisearch.c in Sources */ = {isa = PBXBuildFile; fileRef = D8388B6017D35AD700FF91AD /* bisearch.c */; };
 		D83EB19717D8AD8E005782F4 /* ohtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = D83EB19617D8AD8E005782F4 /* ohtbl.c */; };
@@ -59,6 +62,9 @@
 		D822C6D017DF1E44000AFFA8 /* directls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directls.h; sourceTree = "<group>"; };
 		D822C6D317DF1E44000AFFA8 /* route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = route.c; sourceTree = "<group>"; };
 		D822C6D417DF1E44000AFFA8 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		D822C6DC17DF2172000AFFA8 /* mgsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mgsort.c; sourceTree = "<group>"; };
+		D822C6DE17DF2294000AFFA8 /* ctsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctsort.c; sourceTree = "<group>"; };
+		D822C6E017DF22B8000AFFA8 /* rxsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rxsort.c; sourceTree = "<group>"; };
 		D82D431D17D87AA400951E13 /* chtbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chtbl.h; sourceTree = "<group>"; };
 		D82D431E17D87AAB00951E13 /* chtbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chtbl.c; sourceTree = "<group>"; };
 		D8388B6017D35AD700FF91AD /* bisearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bisearch.c; sourceTree = "<group>"; };
@@ -338,6 +344,7 @@
 		D8880D9717CF43570062D653 /* Counting Sort */ = {
 			isa = PBXGroup;
 			children = (
+				D822C6DE17DF2294000AFFA8 /* ctsort.c */,
 			);
 			path = "Counting Sort";
 			sourceTree = "<group>";
@@ -353,6 +360,7 @@
 		D8880D9917CF43570062D653 /* Merge Sort */ = {
 			isa = PBXGroup;
 			children = (
+				D822C6DC17DF2172000AFFA8 /* mgsort.c */,
 			);
 			path = "Merge Sort";
 			sourceTree = "<group>";
@@ -360,6 +368,7 @@
 		D8880D9B17CF43570062D653 /* Radix Sort */ = {
 			isa = PBXGroup;
 			children = (
+				D822C6E017DF22B8000AFFA8 /* rxsort.c */,
 			);
 			path = "Radix Sort";
 			sourceTree = "<group>";
@@ -507,6 +516,8 @@
 				D822C6D917DF1E44000AFFA8 /* parcels.c in Sources */,
 				D83EB19717D8AD8E005782F4 /* ohtbl.c in Sources */,
 				D895C84517D1F93D00B488B5 /* stack.c in Sources */,
+				D822C6DF17DF2294000AFFA8 /* ctsort.c in Sources */,
+				D822C6E117DF22B8000AFFA8 /* rxsort.c in Sources */,
 				D895C84817D1F94F00B488B5 /* queue.c in Sources */,
 				D822C6D817DF1E44000AFFA8 /* dfs.c in Sources */,
 				D822C6D617DF1E44000AFFA8 /* traverse.c in Sources */,
@@ -516,6 +527,7 @@
 				D86D7E6817D37639004F47A4 /* issort.c in Sources */,
 				D822C6DB17DF1E44000AFFA8 /* route.c in Sources */,
 				D877F9F617DF116F00FA0B12 /* heap.c in Sources */,
+				D822C6DD17DF2172000AFFA8 /* mgsort.c in Sources */,
 				D8880DA417CF457D0062D653 /* list.c in Sources */,
 				D8873F4717D23EBE00E89436 /* bitree.c in Sources */,
 			);
