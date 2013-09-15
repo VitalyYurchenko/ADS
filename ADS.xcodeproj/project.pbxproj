@@ -32,6 +32,7 @@
 		D8880DAA17CF6E8F0062D653 /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = D8880DA917CF6E8F0062D653 /* graph.c */; };
 		D895C84517D1F93D00B488B5 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D895C84417D1F93D00B488B5 /* stack.c */; };
 		D895C84817D1F94F00B488B5 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = D895C84717D1F94F00B488B5 /* queue.c */; };
+		D8B2E65C17E5B61400EFF87B /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = D8B2E65B17E5B61400EFF87B /* fibonacci.c */; };
 		D8C261A517D3715E00FA8200 /* qksort.c in Sources */ = {isa = PBXBuildFile; fileRef = D8C261A417D3715E00FA8200 /* qksort.c */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,8 @@
 		D895C84417D1F93D00B488B5 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		D895C84617D1F94800B488B5 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		D895C84717D1F94F00B488B5 /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		D8B2E65A17E5B60C00EFF87B /* fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
+		D8B2E65B17E5B61400EFF87B /* fibonacci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fibonacci.c; sourceTree = "<group>"; };
 		D8C261A417D3715E00FA8200 /* qksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qksort.c; sourceTree = "<group>"; };
 		D8F51E9617DDEDF400B99A47 /* graphalg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphalg.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -290,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				D895C83917D1F51700B488B5 /* Graph Algorithms */,
+				D8B2E65817E5B58800EFF87B /* Misc */,
 				D8880D9517CF43570062D653 /* Sorting and Searching */,
 			);
 			path = Algorithms;
@@ -445,6 +449,23 @@
 			path = "Graph Algorithms";
 			sourceTree = "<group>";
 		};
+		D8B2E65817E5B58800EFF87B /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D8B2E65917E5B5DC00EFF87B /* Fibonacci Numbers */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		D8B2E65917E5B5DC00EFF87B /* Fibonacci Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				D8B2E65B17E5B61400EFF87B /* fibonacci.c */,
+				D8B2E65A17E5B60C00EFF87B /* fibonacci.h */,
+			);
+			path = "Fibonacci Numbers";
+			sourceTree = "<group>";
+		};
 		D8C261A217D3714100FA8200 /* Quicksort */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +535,7 @@
 				D8388B6117D35AD700FF91AD /* bisearch.c in Sources */,
 				D8880D8A17CF40650062D653 /* main.c in Sources */,
 				D822C6D917DF1E44000AFFA8 /* parcels.c in Sources */,
+				D8B2E65C17E5B61400EFF87B /* fibonacci.c in Sources */,
 				D83EB19717D8AD8E005782F4 /* ohtbl.c in Sources */,
 				D895C84517D1F93D00B488B5 /* stack.c in Sources */,
 				D822C6DF17DF2294000AFFA8 /* ctsort.c in Sources */,
